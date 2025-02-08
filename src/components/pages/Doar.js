@@ -62,9 +62,9 @@ function Doar() {
             <p className="text-gray-600 mb-4">
               Doe seu tempo e habilidades para ajudar nossa causa
             </p>
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            <a target='_blank' href='https://www.atados.com.br/ong/instituto-pingo-de-gente-333139/vagas'><button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
               Quero ser voluntário
-            </button>
+            </button></a>
           </div>
         </div>
 

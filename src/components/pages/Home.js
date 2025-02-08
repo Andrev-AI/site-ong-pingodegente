@@ -14,7 +14,7 @@ function Home() {
   return (
     <div className='flex flex-col min-h-screen'>
      <section className='min-h-screen grid grid-cols-2'>
-        <div className='flex flex-col'>
+        <div className='flex flex-col bg-white'>
           <header className='mb-12'>
             <Header />
           </header>
@@ -109,7 +109,7 @@ function Home() {
       <span>Faça Parte da Nossa Equipe</span>
     </button>
   </div> */}
-  <section className='min-h-screen bg-gray-50 px-12 py-16'>
+  <section className='min-h-screen bg-gray-200 px-12 py-16'>
   <h2 className='text-4xl font-bold mb-8 text-center'>Nossos Kits de Suplementos</h2>
   <p className='text-center text-gray-600 max-w-3xl mx-auto mb-12'>
     Fornecemos suplementos nutricionais especializados para garantir a saúde e bem-estar de nossos assistidos.
