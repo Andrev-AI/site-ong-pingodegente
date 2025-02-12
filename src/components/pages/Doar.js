@@ -1,11 +1,21 @@
 import React from 'react';
+import logo from "../assets/logo.jpg";
 import { FaHeart, FaHandHoldingHeart, FaPiggyBank } from 'react-icons/fa';
-import Header from './Header';
 
 function Doar() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <Header />
+      <header className="flex flex-row justify-between items-center p-3 h-16">
+        <div className="flex flex-row items-center">
+          <a href="/"><img src={logo} alt="logo Pingo de Gente" className="w-16 mr-8"/></a>
+          <h1 className="mr-1">Instituto Pingo de Gente</h1>
+        </div>
+        <div className="grid grid-cols-3 gap-4 p-2">
+          <a href="/" className="hover:text-sky-500 text-center">Home</a>
+          <a href="/#sobre-nos" className="hover:text-sky-500 text-center">Sobre</a>
+          <a href="/doar" className="hover:text-sky-500 text-center">Doar</a>
+        </div>
+      </header>
       
       <main className="max-w-7xl mx-auto px-4 py-16">
         <div className="text-center mb-16">
@@ -62,9 +72,11 @@ function Doar() {
             <p className="text-gray-600 mb-4">
               Doe seu tempo e habilidades para ajudar nossa causa
             </p>
-            <a target='_blank' href='https://www.atados.com.br/ong/instituto-pingo-de-gente-333139/vagas'><button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-              Quero ser voluntário
-            </button></a>
+            <a href="https://www.atados.com.br/ong/instituto-pingo-de-gente-333139/vagas" target="_blank" rel="noopener noreferrer">
+              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                Quero ser voluntário
+              </button>
+            </a>
           </div>
         </div>
 
@@ -73,31 +85,15 @@ function Doar() {
             <h2 className="text-3xl font-bold mb-6">
               Como sua doação faz a diferença
             </h2>
-            <p className="text-blue-100 text-lg mb-8">
+            <p className="text-blue-100 text-lg mb-3">
               Cada contribuição nos ajuda a manter nossos programas de assistência, 
               fornecendo suplementos nutricionais, apoio médico e atividades terapêuticas 
               para crianças com deficiência e idosos com câncer.
             </p>
-            {/* <div className="grid md:grid-cols-3 gap-6 text-center">
-              <div>
-                <h3 className="text-4xl font-bold mb-2">100+</h3>
-                <p className="text-blue-100">Famílias atendidas</p>
-              </div>
-              <div>
-                <h3 className="text-4xl font-bold mb-2">1.2k</h3>
-                <p className="text-blue-100">Doações mensais</p>
-              </div>
-              <div>
-                <h3 className="text-4xl font-bold mb-2">15+</h3>
-                <p className="text-blue-100">Anos de atuação</p>
-              </div>
-            </div> */}
           </div>
         </div>
-      </main>
 
-      <section className="bg-white py-16">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 mt-16">
           <h2 className="text-3xl font-bold text-center mb-12">
             Perguntas Frequentes
           </h2>
@@ -118,7 +114,7 @@ function Doar() {
             </div>
           </div>
         </div>
-      </section>
+      </main>
     </div>
   );
 }
