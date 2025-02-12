@@ -237,6 +237,12 @@ function Home() {
                   doacoes@institutopingodegente.org
                 </a>
               </p>
+              <p className="mb-2">
+                <span className="block text-gray-400">Telefone</span>
+                <a href="mailto:doacoes@institutopingodegente.org" className="hover:text-sky-400 transition-colors">
+                ​(61) 9 99880-9556
+                </a>
+              </p>
             </div>
 
             <div className="text-center md:text-left">

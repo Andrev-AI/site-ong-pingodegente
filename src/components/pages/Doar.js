@@ -51,17 +51,10 @@ function Doar() {
             </div>
             <h3 className="text-xl font-bold mb-4">Doação de Materiais</h3>
             <p className="text-gray-600 mb-4">
-              Aceitamos doações de suplementos, materiais de higiene e outros itens essenciais
+              Aceitamos doações de suplementos, materiais de higiene, roupas, brinquedos e outros itens essenciais
             </p>
-            <a 
-              href="mailto:doacoes@institutopingodegente.org"
-              className="text-blue-600 hover:text-blue-700 font-medium inline-flex items-center"
-            >
-              Entre em contato
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </a>
+              ​(61) 9 99880-9556
+              <p>Email: doacoes@institutopingodegente.org</p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
