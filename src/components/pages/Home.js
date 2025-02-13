@@ -156,10 +156,15 @@ function Home() {
           </div>
         </div>
 
-        <div className='mt-8 lg:mt-12 text-center'>
+        <div className='mt-8 lg:mt-12 text-center space-x-5'>
           <a href='/doar'>
             <button className='bg-sky-500 text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg hover:bg-sky-600 transition-all duration-300'>
               Doar
+            </button>
+          </a>
+          <a href='https://www.atados.com.br/ong/instituto-pingo-de-gente-333139/vagas' target='_blank' rel='noopener noreferrer'>
+            <button className='bg-sky-500 text-white px-6 lg:px-8 py-3 lg:py-4 rounded-lg hover:bg-sky-600 transition-all duration-300'>
+              Ser voluntário
             </button>
           </a>
         </div>
