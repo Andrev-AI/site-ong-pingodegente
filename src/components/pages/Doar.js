@@ -24,7 +24,7 @@ function Doar() {
             <a href="/" className="text-gray-600 hover:text-sky-500 transition-colors duration-200">
               Home
             </a>
-            <a href="#sobre-nos" className="text-gray-600 hover:text-sky-500 transition-colors duration-200">
+            <a href="/" className="text-gray-600 hover:text-sky-500 transition-colors duration-200">
               Sobre
             </a>
             <a href="/doar" className="px-4 py-2 text-white bg-sky-500 rounded-md hover:bg-sky-600 transition-colors duration-200">
@@ -59,7 +59,7 @@ function Doar() {
                 Home
               </a>
               <a
-                href="#sobre-nos"
+                href="/"
                 className="text-gray-600 hover:text-sky-500 transition-colors duration-200 px-2 py-1"
               >
                 Sobre
