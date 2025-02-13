@@ -185,16 +185,7 @@ function Home() {
           </div>
 
           <div className='h-[300px] lg:h-[500px] rounded-xl overflow-hidden shadow-lg'>
-            <iframe 
-              title="Google Maps localização"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.8943950840696!2d-48.0562!3d-15.8341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b1b1b1b1b1b%3A0x1b1b1b1b1b1b1b1b!2sQSA%208%20Lt%201%20-%20Taguatinga%20Sul%2C%20Bras%C3%ADlia%20-%20DF!5e0!3m2!1spt-BR!2sbr!4v1625147000000!5m2!1spt-BR!2sbr"
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen="" 
-              loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+            <iframe style={{ border: 0 }}  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.4114516857076!2d-48.053096700000005!3d-15.834957800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935bcdfab01c173b%3A0x50ffdb96fb5c1e32!2sInstituto%20Pingo%20de%20Gente!5e0!3m2!1spt-BR!2sbr!4v1739405268416!5m2!1spt-BR!2sbr" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
 
